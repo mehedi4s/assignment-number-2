@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* share style */
+header, main{
+    width: 81%;
+    margin: 0 auto;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 35px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}
+/* header styles */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.fav-icon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-title{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+}
+.header ul{
+    display: flex;
+}
+.header i{
+    visibility: hidden;
+}
+.header ul li{
+    list-style: none;
+    margin-right: 44px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 1.125rem;
+}
+#home{
+    color: #FF5400;
+}
+
+/* banner styles */
+.banner{
+    text-align: center;
+    background-image: url('../Images/Group\ 13\ .png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding: 106px 120px;
+    /* padding-bottom: 106px; */
+}
+.banner-content > h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-content > p{
+    color: #FFF;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 48px;
+   
+}
+.search-content{
+    background: rgba(255, 255, 255, 0.30);
+}
+form{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+.search-content img{
+ width: 10px;
+ height: 10px;
+ margin-right: 20px;
+ color: #FFF;
+}
+.search-content, .where{
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 24px;
+}
+.search-content, #when, #select-type{
+    padding: 16px 70px 16px 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 24px;
+}
+.search-content, {
+    padding: 16px 70px 16px 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 24px;
+}
+.search-content .btn{
+    padding: 16px 40px 16px 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 24px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF5400;
+    font-weight: 700;
+}
+.search-content i{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+/* popular place section 2 */
+.popular-place{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 53px;
+}
+.popular-content{
+    width: 50%;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+.popular-place-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+.popular-place img{
+    width: 100%;
+}
+.popular-content > p, li{
+    margin: 16px 0;
+}
+.popular-content > ul{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive mobile */
+@media screen and (max-width:576px) {
+    header, main{
+        width: 93%;
+    }
+    .header ul{
+        display: none;
+    }
+    
+    .header i{
+        visibility: visible;
+    }
+    .nav-title{
+        font-size: 1rem;
+    }
+    form{
+        flex-direction: column;
+    }
+    .banner-content > h2{
+        font-size: 1.4rem;
+    }
+    .banner-content > p{
+
+    }
+    .banner-content{
+        padding: 15px;
+    }
+    form{
+        flex-direction: column;
+        gap: 15px;
+        width: 255px;
+    }
+    .search-content input{
+        padding-right: 50px;
+    }
+    .search-content, #when{
+       padding-right: 150px;
+    }
+    .search-content, #select-type{
+        padding-right: 120px;
+    }
+    .search-content .btn{
+        /* padding: 16px 120px 16px 16px; */
+       padding-right: 100px;
+    } 
+    /* section 1 popular */
+    .popular-place{
+        flex-direction: column;
+    }
+    .popular-content{
+        width: 100%;
+    }
+    .popular-place-title{
+        font-size: 1.75rem;
+    }
+}   
