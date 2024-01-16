@@ -280,6 +280,7 @@ form{
     margin-bottom: 100px;
 }
 .news-latter{
+   
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -323,9 +324,33 @@ form .subscribe{
 }
 .news-latter-pic img{
     width: 100%;
+    height: 100%;
+    /* position: relative; */
     
 }
-
+.news-latter-pic .discount{
+    position: relative;
+    bottom: 32%;
+    left: 24%;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    /* width: 40%; */
+    width: 324px;
+    height: 100px;
+    transform: rotate(-22deg);
+}
+.news-latter-pic .discount > p{
+    font-size: 1.5rem;
+    
+}
+.news-latter-pic .discount > h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
 
 
 
@@ -459,8 +484,28 @@ form .subscribe{
     flex-direction: column;
    }
    .news-latter-pic img{
+    /* position: relative; */
     width: 100%;
     height: 100%;
+    }
+    .news-latter-pic{
+        position: relative;
+    }
+    .news-latter-pic .discount{
+        position: absolute;
+       top: 60%;
+       left: 48%;
+        width: 180px;
+        height: 50px;
+    
+    }
+    .news-latter-pic .discount > p{
+        font-size: 1rem;
+        
+    }
+    .news-latter-pic .discount > h3{
+        font-size: 1.25rem;
+       
     }
 
 }
