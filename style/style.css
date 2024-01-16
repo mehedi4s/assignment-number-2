@@ -351,9 +351,34 @@ form .subscribe{
     font-size: 2rem;
     font-weight: 800;
 }
+/*  footer style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer{
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
 
+.footer .footer-social-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
 
-
+footer .woner-copyright{
+    text-align: center;
+    padding: 20px 280px 100px;
+   
+}
+footer .woner-copyright p{
+    margin-top: 40px;
+    
+}
 
 
 
@@ -506,6 +531,10 @@ form .subscribe{
     .news-latter-pic .discount > h3{
         font-size: 1.25rem;
        
+    }
+    /* footer section */
+    footer .woner-copyright{
+        padding: 10px;
     }
 
 }
