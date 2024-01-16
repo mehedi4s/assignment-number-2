@@ -576,5 +576,9 @@ footer .woner-copyright p{
         grid-template-columns: repeat(1, 1fr);
         
     }
+    .our-special-offer img{
+        width: 100%;
+        
+    }
 
 }
