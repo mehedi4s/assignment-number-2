@@ -380,7 +380,41 @@ footer .woner-copyright p{
     
 }
 
-
+/* bonus section start */
+.our-special-offer{
+    /* border: 1px solid tomato; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 100px;
+    
+}
+.our-special-offer img{
+    width: 100%;
+    border-radius: 10px;
+}
+.our-special-offer h2{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.our-special-offer .price{
+    color: #FF5400;
+}
+.our-special-offer img:hover{
+    box-shadow: 5px 5px 20px #817671b1;
+    transform: scale(1.03, 1.04);
+}
+.package{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.special{
+    color: #FF5400;
+}
 
 
 
@@ -534,7 +568,13 @@ footer .woner-copyright p{
     }
     /* footer section */
     footer .woner-copyright{
-        padding: 10px;
+       padding: 10px 10px 50px;
+        
+    }
+    /* bonus section  */
+    .our-special-offer{
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 
 }
